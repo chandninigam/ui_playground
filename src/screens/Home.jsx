@@ -5,7 +5,8 @@ export function Home() {
     <div>
       <h1>Welcome to UI Playground</h1>
       <div>
-        <Link to="/scroll_visibility"> Scroll-based Visibility Detection</Link>
+        1.{" "}
+        <Link to="/scroll_visibility">Scroll-based Visibility Detection</Link>
       </div>
     </div>
   );
