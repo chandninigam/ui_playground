@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import "./App.css";
 import { Home } from "./screens/Home";
 import { ScrollVisibiltyDetect } from "./screens/ScrollVisibilityDetect";
+import { EndlessScroll } from "./screens/EndlessScroll";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
             path="/scroll_visibility"
             element={<ScrollVisibiltyDetect />}
           />
+          <Route path="/endless_scroll" element={<EndlessScroll />} />
         </Routes>
       </Router>
     </>

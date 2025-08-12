@@ -1,0 +1,11 @@
+.list {
+  height: 600px;
+  overflow-y: auto;
+  overflow-y: scroll;
+}
+
+.singleItem {
+  padding: 22px;
+  background-color: aqua;
+  margin: 6px;
+}

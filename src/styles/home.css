@@ -1,0 +1,7 @@
+.list_screens {
+  display: flex;
+  flex-direction: column;
+}
+span {
+  padding: 10px;
+}
