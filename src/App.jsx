@@ -3,6 +3,7 @@ import "./App.css";
 import { Home } from "./screens/Home";
 import { ScrollVisibiltyDetect } from "./screens/ScrollVisibilityDetect";
 import { EndlessScroll } from "./screens/EndlessScroll";
+import { VisibleItem } from "./screens/IntersectionObserver";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
             element={<ScrollVisibiltyDetect />}
           />
           <Route path="/endless_scroll" element={<EndlessScroll />} />
+          <Route path="/intersection_observer" element={<VisibleItem />} />
         </Routes>
       </Router>
     </>

@@ -13,6 +13,9 @@ export function Home() {
         <span>
           2. <Link to="/endless_scroll">EndLess Scroll</Link>
         </span>
+        <span>
+          3. <Link to="/intersection_observer">Intersection Observer</Link>
+        </span>
       </div>
     </div>
   );
