@@ -1,0 +1,22 @@
+.accWrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.txtContainer {
+  padding: 10px;
+  margin: 8px;
+  border-bottom: 2px solid grey;
+}
+.plusIcon {
+  font-weight: 700;
+  margin-right: 10px;
+}
+.title {
+  all: unset;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+.close {
+  display: none;
+}

@@ -16,6 +16,12 @@ export function Home() {
         <span>
           3. <Link to="/intersection_observer">Intersection Observer</Link>
         </span>
+        <span>
+          4. <Link to="/accordion">Accordion UI</Link>
+        </span>
+        <span>
+          5. <Link to="/file_explore">File Explore UI</Link>
+        </span>
       </div>
     </div>
   );

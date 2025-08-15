@@ -4,6 +4,8 @@ import { Home } from "./screens/Home";
 import { ScrollVisibiltyDetect } from "./screens/ScrollVisibilityDetect";
 import { EndlessScroll } from "./screens/EndlessScroll";
 import { VisibleItem } from "./screens/IntersectionObserver";
+import { Accordion } from "./screens/Accordion";
+import { FileExploreUi } from "./screens/FileExploreUi";
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
           />
           <Route path="/endless_scroll" element={<EndlessScroll />} />
           <Route path="/intersection_observer" element={<VisibleItem />} />
+          <Route path="/accordion" element={<Accordion />} />
+          {/* <Route path="/file_explore" element={<FileExploreUi />} /> */}
         </Routes>
       </Router>
     </>
