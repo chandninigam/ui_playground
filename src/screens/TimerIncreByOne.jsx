@@ -31,7 +31,7 @@ export function TimerIncrementByOne() {
   return (
     <div>
       <h1>Timer Increment By One</h1>
-      <div>{getHourMinSec()}</div>
+      <div className="counter">{getHourMinSec()}</div>
     </div>
   );
 }
