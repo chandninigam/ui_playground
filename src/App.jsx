@@ -20,7 +20,7 @@ function App() {
           <Route path="/endless_scroll" element={<EndlessScroll />} />
           <Route path="/intersection_observer" element={<VisibleItem />} />
           <Route path="/accordion" element={<Accordion />} />
-          {/* <Route path="/file_explore" element={<FileExploreUi />} /> */}
+          <Route path="/file_explore" element={<FileExploreUi />} />
         </Routes>
       </Router>
     </>

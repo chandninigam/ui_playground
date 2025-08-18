@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(178, 177, 177);
+  padding: 10px;
+}
+.header .fileFolderWrapper {
+  display: flex;
+}
+.header .fileFolderWrapper button {
+  margin-right: 10px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.main {
+  padding: 10px;
+}
+.folderWithName {
+  text-decoration: underline;
+}
+.main button.folderBtn {
+  all: unset;
+  cursor: pointer;
+}
+.mr-l10 {
+  margin-left: 10px;
+}
