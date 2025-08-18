@@ -6,6 +6,7 @@ import { EndlessScroll } from "./screens/EndlessScroll";
 import { VisibleItem } from "./screens/IntersectionObserver";
 import { Accordion } from "./screens/Accordion";
 import { FileExploreUi } from "./screens/FileExploreUi";
+import { TimerIncrementByOne } from "./screens/TimerIncreByOne";
 
 function App() {
   return (
@@ -21,6 +22,10 @@ function App() {
           <Route path="/intersection_observer" element={<VisibleItem />} />
           <Route path="/accordion" element={<Accordion />} />
           <Route path="/file_explore" element={<FileExploreUi />} />
+          <Route
+            path="/timer_increment_by_one"
+            element={<TimerIncrementByOne />}
+          />
         </Routes>
       </Router>
     </>

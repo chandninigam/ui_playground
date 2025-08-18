@@ -22,6 +22,9 @@ export function Home() {
         <span>
           5. <Link to="/file_explore">File Explore UI</Link>
         </span>
+        <span>
+          6. <Link to="/timer_increment_by_one">Timer Increment By One</Link>
+        </span>
       </div>
     </div>
   );
