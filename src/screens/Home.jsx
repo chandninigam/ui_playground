@@ -25,6 +25,9 @@ export function Home() {
         <span>
           6. <Link to="/timer_increment_by_one">Timer Increment By One</Link>
         </span>
+        <span>
+          7. <Link to="/drop_down">Drop Down</Link>
+        </span>
       </div>
     </div>
   );

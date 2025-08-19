@@ -1,0 +1,10 @@
+h1 {
+  margin: auto;
+  margin-left: 10px;
+}
+.container {
+  margin: 12px;
+}
+.selectCountry {
+  width: 20%;
+}

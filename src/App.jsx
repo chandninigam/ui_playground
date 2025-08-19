@@ -7,6 +7,7 @@ import { VisibleItem } from "./screens/IntersectionObserver";
 import { Accordion } from "./screens/Accordion";
 import { FileExploreUi } from "./screens/FileExploreUi";
 import { TimerIncrementByOne } from "./screens/TimerIncreByOne";
+import { DropDown } from "./screens/DropDown";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
             path="/timer_increment_by_one"
             element={<TimerIncrementByOne />}
           />
+          <Route path="/drop_down" element={<DropDown />} />
         </Routes>
       </Router>
     </>
